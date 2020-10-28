@@ -1,0 +1,7 @@
+README.md
+setup.py
+custom_tasks.egg-info/PKG-INFO
+custom_tasks.egg-info/SOURCES.txt
+custom_tasks.egg-info/dependency_links.txt
+custom_tasks.egg-info/requires.txt
+custom_tasks.egg-info/top_level.txt

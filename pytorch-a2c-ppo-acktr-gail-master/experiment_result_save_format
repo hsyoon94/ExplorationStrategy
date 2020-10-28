@@ -1,0 +1,38 @@
+spawn되고 나서 done=True로 찍힐 때 했을 때 로그 (spawn될 때 초기화)
+IROS2020/날짜/pythonscript실행시간_plt0.1_plr0.5_ctrlcoef_2.0/figure/ 에다가 figure 저장
+IROS2020/날짜/pythonscript실행시간_plt0.1_plr0.5_ctrlcoef_2.0/log/ 에다가 log 저장
+
+[Figure]
+한 figure에는 9~11개의 dist pair가 존재
+
+
+
+[Log]
+
+if done = True:
+  %10 마다 distribution plot save하고
+  %1 마다 reward와 policy_dist 분포 로
+{
+  "training":[
+    {
+      "training_reward" : 89.11,
+      "count_plt" : 994,
+      "count_plr" : 5,
+      "policy_dist" : []
+    }
+  ],
+  "evaluation":[],
+  "episode":[
+    {
+      "entropy_plt" : 1.4,
+      "value_loss_plt" 1.0,
+      "action_loss_plt" 1.0,
+      "entropy_plr" : 1.4,
+      "value_loss_plr" 1.0,
+      "action_loss_plr" 1.0
+    }
+  ]
+}
+  
+  
+  
